@@ -89,7 +89,7 @@ const Hero = () => {
             <div className="flex gap-6 items-center">
             <a href={`/s/${url.shortUrl}`} tabIndex="_blank" className="hover:underline font-bold " >{`snip-url.vercel.app/s/${url.shortUrl}`}
             </a>
-            <button onClick={() => copyText(`snip-url.vercel.app/s/${url.shortUrl}`)} className="hidden md:block">
+            <button onClick={() => copyText(`snip-url-reyan.vercel.app/s/${url.shortUrl}`)} className="hidden md:block">
               <Copy  height={18} width={18} color={"black"}/>
             </button>
 
