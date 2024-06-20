@@ -87,7 +87,7 @@ const Hero = () => {
           <div className="flex ">
           <div className="Links">
             <div className="flex gap-6 items-center">
-            <a href={`/s/${url.shortUrl}`} tabIndex="_blank" className="hover:underline font-bold " >{`snip-url.vercel.app/s/${url.shortUrl}`}
+            <a href={`/s/${url.shortUrl}`} tabIndex="_blank" className="hover:underline font-bold " >{`snip-url-reyan.vercel.app/s/${url.shortUrl}`}
             </a>
             <button onClick={() => copyText(`snip-url-reyan.vercel.app/s/${url.shortUrl}`)} className="hidden md:block">
               <Copy  height={18} width={18} color={"black"}/>
@@ -102,7 +102,7 @@ const Hero = () => {
             </a>
             <button
           className="font-semibold md:flex hidden   items-center justify-center   bg-primary hover:bg-green-700 text-white  px-6 py-2 rounded-lg"
-          onClick={() => copyText(`snip-url.vercel.app/s/${url.shortUrl}`)}
+          onClick={() => copyText(`snip-url-reyan.vercel.app/s/${url.shortUrl}`)}
           >
             <Copy height={24} width={24} color={"white"}/>
 Copy Link
@@ -114,7 +114,7 @@ Copy Link
             {url.fullUrl}</p>
           <button
           className="font-semibold md:hidden mt-4 flex items-center justify-center bigCopyButtton w-full bg-primary hover:bg-green-700 text-white  px-6 py-2 rounded-lg"
-          onClick={() => copyText(`snip-url.vercel.app/s/${url.shortUrl}`)}
+          onClick={() => copyText(`snip-url-reyan.vercel.app/s/${url.shortUrl}`)}
           >
             <Copy height={24} width={24} color={"white"}/>
 Copy Link
